@@ -1,0 +1,306 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+@font-face{
+    font-family: 'HelveticaNeueCyr-Light';
+    src: url(Helvetica_Neue/HelveticaNeueCyr-Light.otf);
+}
+@font-face{
+    font-family: 'HelveticaNeueCyr-Medium';
+    src: url(Helvetica_Neue/HelveticaNeueCyr-Medium.otf);
+}
+@font-face{
+    font-family: 'HelveticaNeueCyr-Thin';
+    src: url(Helvetica_Neue/HelveticaNeueCyr-Thin.otf);
+}
+@font-face{
+    font-family: 'Inter-Regular';
+    src: url(Inter/Inter-Regular.otf);
+}
+body{
+    margin: 0;
+    background-color: rgb(242, 249, 255);
+}
+
+.glavnaia{
+    max-width: 513px;
+    margin: 0 auto 121px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.container1{
+
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(240, 240, 240);
+}
+.container1 h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    width: 810px;
+    height: 146px;
+    margin: 0 auto 40px;
+    font-family: HelveticaNeueCyr-Medium;
+}
+.container1 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 780px;
+    height: 48px;
+    margin: 0 auto 71px;
+    font-family: HelveticaNeueCyr-Thin;
+}
+header{
+    background-image: url(img/glav.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 768px;
+}
+.btn{
+    width: 250px;
+    height: 57px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 84px;
+    border: none;
+    background: rgb(255, 151, 40);
+    color: rgb(240, 240, 240);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 auto 175px;
+    font-family: HelveticaNeueCyr-Thin;
+}
+.about{
+    background-color: rgb(222, 240, 255);
+    min-height: 395px;
+    display: flex;
+}
+.container2{
+    width: 743px;
+    height: 155px;
+    text-align: center;
+    margin: 120px auto;
+    color: rgb(15, 76, 146);
+}
+.container2 h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    margin: 0px auto 40px;
+    font-family: HelveticaNeueCyr-Light;
+}
+.container2 p{
+    width: 743px;
+    height: 66px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0px auto;
+    font-family: Inter-Regular;
+}
+
+.services{
+    margin: 90px auto 100px;
+    
+}
+.servis_info1{
+    display: flex;
+}
+.service_1{
+    margin: 0px auto;
+}
+.service_11{
+    width: 531px;
+    height: 453px;
+    margin: auto auto auto 80px;
+} 
+.h3_serv{
+    width: 400px;
+    color: rgb(15, 76, 146);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0px 0px 20px;
+    font-family: HelveticaNeueCyr-Thin;
+}
+span{
+    font-weight:bold;
+}
+.p1{
+    width: 368px;
+    height: 24px;
+    margin: 0px 0px 40px;
+    color: rgb(27, 27, 27);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 0px;
+    font-family: HelveticaNeueCyr-Thin;
+}
+.p11{
+    width: 472px;
+    height: 208px;
+    margin: 0px 0px 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(27, 27, 27);
+    font-family: HelveticaNeueCyr-Thin;
+}
+.servis_info2{
+    display: flex;
+}
+.service_2{
+    margin: 0px auto;
+}
+.service_22{
+    width: 531px;
+    height: 453px;
+    margin: auto 72px auto auto;
+} 
+.servis_info3{
+    display: flex;
+}
+.service_3{
+    margin: 0px auto;
+}
+.service_33{
+    width: 531px;
+    height: 453px;
+    margin: auto auto auto 80px;
+} 
+.services img {
+    width: 575px;
+    height: 575px;
+}
+.btn2{
+    width: 284px;
+    height: 57px;
+    padding: 16px 70px 16px 70px;
+    border-radius: 95px;
+    border: none;
+    background: rgb(13, 89, 156);
+    color: rgb(240, 240, 240);
+    font-size: 21px;
+
+}
+.themes{
+    background-color: rgb(222, 240, 255);
+    height: 395px;
+    display: flex;
+}
+.themes_inf{
+    color: rgb(15, 76, 146);
+    text-align: center;
+    width: 749px;
+    height: 257.5px;
+    margin: 100px auto;
+}
+.themes_inf h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    width: 684px;
+    height: 49px;
+    margin: auto auto 40px;
+    font-family:  HelveticaNeueCyr-Light;
+}
+.themes_inf p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 749px;
+    height: 168px;
+    margin: auto auto;
+    text-align: center;
+    font-family: HelveticaNeueCyr-Thin;
+}
+
+.advertising{
+    background-color: rgb(181, 228, 255);
+    height: 542px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+.square{
+    border-radius: 19px;
+    background-color: rgb(43, 71, 124);
+    color: rgb(244, 244, 244);
+    width: 785px;
+    height: 348px;
+    margin: auto;
+    text-align: center;
+    
+}
+.square h2{  
+    height: 98px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-family:  HelveticaNeueCyr-Light;
+}
+.square p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 30px;
+    font-family: HelveticaNeueCyr-Thin;
+}
+.carta{
+    background-color:rgb(255, 255, 255);
+    margin: auto auto;
+    display: contents;
+}
+.carta h2{
+    text-align: center;
+    color: rgb(15, 76, 146);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    font-family:  HelveticaNeueCyr-Light;
+}
+.carta1{
+    background-image: url(img/carta.png);
+    height: 355px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info{
+    text-align: center;
+    background-color: rgb(11, 131, 190);
+    margin: auto;
+    color: rgb(255, 255, 255);
+    height: 447px;
+}
+.log{
+    margin-top: 47px;
+    margin-bottom: 1px;
+}
+.text1{
+    margin-bottom: 31px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: HelveticaNeueCyr-Thin;
+}
+.messeng{
+    margin-bottom: 38px;
+}
+.text2{
+    width: 500px;
+    height: 72px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: auto;
+    font-family: HelveticaNeueCyr-Thin;
+}
